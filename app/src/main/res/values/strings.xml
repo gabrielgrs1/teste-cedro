@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Gerenciador de Senhas</string>
+
+    <!-- Strings da tela de Login e Cadastro -->
+
+    <!-- Title -->
+    <string name="tv_titulo_cadastro">Cadastro</string>
+    <string name="tv_titulo_cadastro_site">Cadastro de Site</string>
+
+    <!-- TextView -->
+    <string name="tv_login">Login</string>
+    <string name="tv_btn_cadastro">Ainda não possui cadastro? </string>
+    <string name="tv_lbl_url">Site</string>
+    <string name="tv_lbl_usuario">Usuário/Email</string>
+
+
+    <!-- PlaceHolder -->
+    <string name="ph_senha">Senha</string>
+    <string name="ph_nome">Nome</string>
+    <string name="ph_email">Email</string>
+    <string name="ph_site_url">Site</string>
+    <string name="ph_site_usuario">Usuário/Email</string>
+
+    <!-- TextView parameters password -->
+    <string name="tv_requisito_senha">Sua senha deve conter no mínimo:</string>
+    <string name="tv_requisito_senha_1">- 10 caracteres</string>
+    <string name="tv_requisito_senha_2">- 1 letra maiúscula</string>
+    <string name="tv_requisito_senha_3">- 1 número</string>
+    <string name="tv_requisito_senha_4">- 1 caractere especial</string>
+    <string name="tv_requisito_senha_erro">A password deve corresponder a todos os requisitos acima!</string>
+
+    <!-- ImageView Description -->
+    <string name="img_logo">Logo Cedro</string>
+    <string name="img_logo_detalhes">Logo</string>
+
+    <!-- Button -->
+    <string name="btn_login">Entrar</string>
+    <string name="btn_cadastro_login"><u>Cadastre-se aqui!</u></string>
+    <string name="btn_cadastro_cadastro">Cadastrar</string>
+    <string name="btn_cadastro_site">Cadastrar Site</string>
+    <string name="btn_excluir_cadastro">Excluir Site</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="btn_copiar_senha">Copiar senha</string>
+    <string name="btn_deslogar">Deslogar</string>
+
+
+    <!-- Textos de informação -->
+    <string name="erro_login_invalido">O login informado está incorreto</string>
+    <string name="erro_senha_pequena">A password deve conter no minimo 8 caracteres</string>
+    <string name="erro_senha_incorreta">A password informada está incorreta</string>
+    <string name="erro_senha_invalida">A password deve conter 1 caractere especial, 1 letra e 1 número</string>
+    <string name="erro_campo_obrigatório">Campo Obrigatório!</string>
+    <string name="erro_email_invalido">O e-mail inserido é inválido</string>
+    <string name="erro_conexao">Verifique sua conexão com a internet!</string>
+</resources>

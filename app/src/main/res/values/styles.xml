@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="estiloPrincipal" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/corPri</item>
+        <item name="colorPrimaryDark">@color/corSec</item>
+        <item name="colorAccent">@color/corTerc</item>
+        <item name="android:statusBarColor">?android:attr/colorPrimaryDark</item>
+    </style>
+
+</resources>

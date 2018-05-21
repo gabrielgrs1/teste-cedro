@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margem_vertifical"
+    android:paddingLeft="@dimen/margem_horizontal"
+    android:paddingRight="@dimen/margem_horizontal"
+    android:paddingTop="@dimen/margem_vertifical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:background="@drawable/logo_cedro"
+            android:contentDescription="@string/img_logo" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/corSec">
+
+            <EditText
+                android:id="@+id/edt_login_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ph_email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="@color/textInputColor"
+                android:textColorHint="@color/corPri" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/corSec"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/corPri">
+
+            <EditText
+                android:id="@+id/edt_senha_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ph_senha"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="@color/textInputColor"
+                android:textColorHint="@color/corPri" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_erro_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="3dp"
+            android:gravity="center"
+            android:textColor="@color/textErrorColor"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/corPri"
+            android:text="@string/btn_login"
+            android:textColor="@color/textButtonColor" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_btn_cadastro"
+                android:textColor="@color/corSec"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/btn_cadastro_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/btn_cadastro_login"
+                android:textColor="@color/corSec"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

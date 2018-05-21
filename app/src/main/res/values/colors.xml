@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="corPri">#0f284b</color>
+    <color name="corSec">#2875ad</color>
+    <color name="corTerc">#8fc74c</color>
+    <color name="textInputColor">#000</color>
+    <color name="textButtonColor">#fff</color>
+    <color name="textErrorColor">#ff0000</color>
+    <color name="errorColor">#ff0000</color>
+    <color name="successColor">#5cb85c</color>
+</resources>

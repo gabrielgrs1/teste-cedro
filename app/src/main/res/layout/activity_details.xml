@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margem_horizontal"
+        android:layout_marginBottom="@dimen/margem_vertifical"
+        android:layout_marginStart="@dimen/margem_horizontal"
+        android:layout_marginTop="@dimen/margem_vertifical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_detalhes"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:contentDescription="@string/img_logo_detalhes" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/corSec">
+
+            <EditText
+                android:id="@+id/tv_url_detalhes"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/ph_site_url"
+                android:inputType="textUri"
+                android:textColor="@color/textInputColor"
+                android:textColorHint="@color/corPri"
+                android:textSize="17sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/corSec">
+
+            <EditText
+                android:id="@+id/tv_email_detalhes"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="@string/ph_email"
+                android:inputType="text"
+                android:textColor="@color/textInputColor"
+                android:textColorHint="@color/corSec"
+                android:textSize="17sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/corSec"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/corPri">
+
+            <EditText
+                android:id="@+id/tv_senha_detalhes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:hint="@string/ph_senha"
+                android:inputType="textPassword"
+                android:textColor="@color/textInputColor"
+                android:textColorHint="@color/corSec"
+                android:textSize="17sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_salvar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/successColor"
+            android:text="@string/btn_salvar"
+            android:textAllCaps="true"
+            android:textColor="@color/textButtonColor" />
+
+        <Button
+            android:id="@+id/btn_copiar_senha"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/corPri"
+            android:text="@string/btn_copiar_senha"
+            android:textAllCaps="true"
+            android:textColor="@color/textButtonColor" />
+
+        <Button
+            android:id="@+id/btn_excluir_site"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/errorColor"
+            android:text="@string/btn_excluir_cadastro"
+            android:textAllCaps="true"
+            android:textColor="@color/textButtonColor" />
+    </LinearLayout>
+
+
+</ScrollView>

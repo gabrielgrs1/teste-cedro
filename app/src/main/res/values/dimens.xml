@@ -1,0 +1,5 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margem_horizontal">12dp</dimen>
+    <dimen name="margem_vertifical">12dp</dimen>
+</resources>

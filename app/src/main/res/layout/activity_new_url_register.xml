@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margem_vertifical"
+    android:paddingLeft="@dimen/margem_horizontal"
+    android:paddingRight="@dimen/margem_horizontal"
+    android:paddingTop="@dimen/margem_vertifical">
+
+    <LinearLayout
+        android:id="@+id/form_novo_site"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tv_titulo_cadastro_site"
+            android:textColor="@color/corPri"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/corSec">
+
+            <EditText
+                android:id="@+id/edt_url_cadastro_site"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ph_site_url"
+                android:inputType="textUri"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/textInputColor"
+                android:textColorHint="@color/corSec" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/corSec">
+
+            <EditText
+                android:id="@+id/edt_usuario_cadastro_site"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ph_site_usuario"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/textInputColor"
+                android:textColorHint="@color/corSec" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/corSec"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/corPri">
+
+            <EditText
+                android:id="@+id/edt_senha_cadastro_site"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ph_senha"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/corSec"
+                android:textColorHint="@color/corSec" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_cadastro_site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/corPri"
+            android:text="@string/btn_cadastro_site"
+            android:textColor="@color/textButtonColor" />
+
+    </LinearLayout>
+
+</ScrollView>
